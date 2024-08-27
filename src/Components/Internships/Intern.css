@@ -1,0 +1,190 @@
+*{
+  margin: 0;
+  padding: 0%;
+}
+.filter-section{
+  
+  border-radius: 6px;
+  background: white;
+  box-shadow: 0px 0px 2px -1px;
+  
+ 
+};
+.first-int{
+  width:36vw;
+  margin-left:10px;
+  
+
+}
+
+.internship-filter{
+  background: white;
+  width:100vw;
+  column-gap: 10px;
+}
+
+.all-internships{
+  flex:1
+}
+
+
+#filter{
+  width:30vw;
+  max-width:320px;
+  margin-left: 16px;;
+}
+.search-2{
+  border-radius: 6px;
+  box-shadow: 0px 0px 2px -1px black;
+  margin-top: 2rem;
+  background: #ffff;
+  display:flex;
+  align-items: center;;
+  justify-content: center;
+  
+  
+}
+
+
+.search-container input{
+   padding-left: 4px;;
+    
+    width: 80%;
+    background: transparent;
+    border: 1px solid black;
+   
+}
+#experience{
+  width: 80%;
+  background: transparent;
+  border: 1px solid black;
+
+}
+
+  .search-container {
+    width:90%;
+    display: flex;
+    align-items: center;
+    padding:4px;
+    column-gap: 4px;
+  }
+
+  .search-icon{
+    width: 20%;
+    max-width:40px;
+    border-radius: 2px;
+    text-align: center;
+    background: #078edd;
+    height: 27px;
+    color: #ffff;
+  }
+
+  #display{
+    /* position: relative;
+    left: -46%;
+    width: 697px; */
+    height: 300px;
+  }
+
+  .head {
+    margin-left: -6rem;
+    width: 20%;
+
+}
+
+
+
+.list{
+  align-items: center;
+}
+
+.show2{
+  justify-content: center;
+  align-items: center;
+
+}
+#display{
+  width:90%;
+  max-width: 740px;
+}
+
+
+  @media screen and (max-width: 900px) {
+    .first-int{
+      display: none;
+    }
+ 
+
+    #display{
+     width:80%;
+     max-width:740px;
+    }
+
+  
+    /* .close2{
+      background: #ffff;
+      color: black;
+      font-size: 25px;
+      position: relative;
+      left: 43%;   
+         width: 40px;
+     } */
+    
+    .filtericon{
+      display: block;
+    }
+
+  }
+
+  #viewButtons{
+  
+    margin-left: -4px;
+    border: 1px solid #078edd;
+    background-color: transparent;
+    border-radius:2px ;
+    width: 120px;
+   
+    margin-bottom: 2px;
+  }
+
+  #viewButtons:hover{
+    box-shadow: 0px 0px 2px -1px black;
+  }
+  .info{
+    margin-left: 0%;
+  }
+
+  .details{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+ 
+  .job-title{
+    position: absolute;
+    left: 0%;
+
+  }
+
+  /* .first2-int{
+    position: absolute;
+    top: 15%;
+    left: 23%;
+    width: 100%;
+    box-shadow: 0xp 0px 2px 2px ;
+    padding: 0px;
+  } */
+  #close-btn{
+    position: relative;;
+    margin-left:2px;
+  }
+
+
+  
+@media screen and (min-width:900px){
+  .filtericon{
+    display:none;
+  }
+}
+  
+   

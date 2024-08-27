@@ -1,0 +1,194 @@
+*{
+  margin:0px;
+  padding:0px;
+
+}
+
+.company-logo{
+ max-width:120px;
+  
+}
+#picpro{
+  width:30px;
+}
+
+nav{
+  width:100%;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px -2px black;
+  overflow: hidden;
+ 
+}
+.portion1{
+  align-items: center;
+  justify-content: space-between;
+}
+.cat{
+  display:flex;
+}
+
+ul{
+  display: flex;
+  position:relative;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+
+.elem{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+ul p{
+
+  margin: 30px;
+  color:black;
+}
+
+.search{
+  display:flex;
+ flex-wrap: nowrap;
+ align-items: center;
+  margin-top: 15px;
+}
+
+.search i {
+  font-size: 12px;
+  font-weight: 200;
+}
+
+.search input{
+ 
+  font-size: 15px;
+  padding: 12px 12px;
+  min-width:100px;
+ max-width:200px;
+  border:none;
+  color: black;
+  outline: 1;
+  margin-right: 10px;
+  margin-left:10px;
+}
+
+.auth{
+
+  display:flex;
+  justify-content: space-around;
+  row-gap: 10px;
+  column-gap: 30px;
+  align-items: center;
+  margin-right: 20px;
+  
+}
+
+.portion2{
+  display:flex;
+  justify-content:space-evenly ;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.btn1{
+  color:#078edd;
+  outline:#078edd  2px solid;
+  border:none;
+  width:60px;
+  height: 25px;
+  font-size: 16px;
+  border-radius: 2px;
+
+}
+
+.btn2{
+  color:White;
+  outline:#078edd  2px solid;
+  border:none;
+  width:70px;
+  height: 25px;
+  font-size: 16px;
+  border-radius: 2px;
+  background-color: #078edd;
+  
+}
+
+.hire{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left:35%;
+  font-weight: 500;
+  height:30px;
+  margin-top: 22px;
+  
+
+}
+
+
+.admin-bt {
+  color:White;
+  outline:#078edd  2px solid;
+  border:none;
+  width:70px;
+  height: 25px;
+  font-size: 16px;
+  border-radius: 2px;
+  background-color: #078edd;
+
+}
+
+@media screen and ( max-width:900px){
+  .nav1{
+    display:none;
+  }
+}
+#cross{
+  position:relative;
+  left: 90%;
+  font-size: 34px;
+
+}
+.login{
+  z-index:100;
+  box-shadow: 0px 0px 5px -2px black;
+ 
+}
+
+
+.profile-dropdown-1{
+  display:flex;
+  padding: 6px;
+  position:absolute;
+  left:32%;
+  margin-left:10px;
+  z-index:1;
+  background-color: aliceblue;
+
+}
+
+.profile-dropdown-2{
+  display:flex;
+  padding: 6px;
+  position:absolute;
+  left:8%;
+  margin-right:10px;
+  z-index: 1;
+  background-color: aliceblue
+  
+}
+.left-section{
+  margin:10px;
+
+}
+
+.right-section{
+  margin:10px;
+  
+}
+.line{
+  width:1px;
+  margin:10px;
+}

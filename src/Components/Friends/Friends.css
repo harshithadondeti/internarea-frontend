@@ -1,0 +1,21 @@
+.userbox{
+    width:60vw;
+    padding: 1rem;
+    box-shadow: 5px 5px 15px ;
+}
+
+.box{
+    align-items: center;
+    padding: 2rem;
+   
+}
+
+.page{
+    background-color: rgb(246, 240, 240);
+}
+
+.active{
+    border-bottom: 2px;
+    border-color: purple;
+    border-style: solid;
+}
