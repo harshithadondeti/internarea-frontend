@@ -17,7 +17,7 @@ if (email===""||password==="") {
 }
 else{
     const bodyjson={
-        username:email,
+        username:username,
         password:password
     }
     axios.post("https://internarea-backend-t8di.onrender.com/api/admin/adminLogin",bodyjson).then((res)=>{
