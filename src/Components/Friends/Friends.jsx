@@ -24,17 +24,16 @@ function Friends() {
     const setfriends=()=>{
         setshow('friends')
         setdisplayData(friendsList)
-        console.log('friends',displaydata)
+        
     }
     const setusers=()=>{
         setshow('all-users')
         setdisplayData(UserList)
-        console.log('all-users',displaydata)
+       
     }
     const setrequests=()=>{
         setshow('requests')
         setdisplayData(requestList)
-        console.log('requests',displaydata)
     }
 
       
@@ -46,7 +45,6 @@ function Friends() {
                 const u= (res.data.find((data)=> data.fid == user.fid))
                 setcurrentuser(u)
                 setdisplayData(res.data);
-                console.log("currentuser",u,currentuser,user)
             })
         }catch(error){
             console.log(error);
@@ -65,7 +63,6 @@ function Friends() {
            currentuser?.friends.includes(data.fid)
         )
         setFriendsList(list)
-        console.log("filtering friends",UserList,currentuser)
        }
 
        filterFriends();
@@ -79,7 +76,6 @@ function Friends() {
             const list=UserList.filter((data)=>
                currentuser?.requests.includes(data.fid)
             )
-            console.log("filtering requests",UserList,currentuser)
             setRequestList(list)
            }
 
@@ -152,13 +148,11 @@ function Friends() {
 
     const Accept=async(person)=>{
        const res= await axios.put(`https://internarea-backend-t8di.onrender.com/api/User/${person._id}`,{friends:[...person.friends,currentuser.fid]}).then(res=>{
-        console.log("test1",res)
         }).catch(err=>{
             console.log(err)
         })
 
       const res2=  await axios.put(`https://internarea-backend-t8di.onrender.com/api/User/${currentuser._id}`,{requests: currentuser.requests.filter(data=>data !== person.fid), friends:[...currentuser.friends,person.fid]}).then(res=>{
-        console.log("test2",res)
         }).catch(err=>{
             console.log(err)
         })

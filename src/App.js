@@ -39,7 +39,7 @@ function App() {
 
   const user=useSelector(selectUser);
   let usertype="user"
-  const adminemail="admin@gmail.com"
+  const adminemail="admin@gmail.com" 
   const dispatch=useDispatch();
   useEffect(()=>{
    
